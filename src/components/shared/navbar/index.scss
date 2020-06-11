@@ -1,0 +1,44 @@
+//     color: #fff;
+// background-color: #0ca7aa;
+// border-color: #0ca7aa;
+.navbar-continer{
+    padding: 15px 0px;
+    background: #fff;
+    box-shadow: 1px 0px 20px #dddddd70;
+    .nav-list-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        li{
+            list-style-type: none;
+            margin: 0px 10px;
+            a{
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: "Tajawal-bold" !important;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .logo-area{
+        height: 100%;
+        padding: 0px 4em;
+        i{
+            font-size: 60px;
+        }
+    }
+    .sala-area{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0px 4em;
+        justify-content: flex-end;
+        i{
+            font-size: 28px;
+        }
+    }
+}
