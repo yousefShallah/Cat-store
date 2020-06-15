@@ -42,7 +42,6 @@ class ProductItem extends React.Component{
                        <Col span={24}>
                             <div className="name-continer">
                                 <h3> {name} </h3>
-                                {/* <i className="fa fa-cart-plus" onClick={this.addToBasket}> </i> */}
                             </div>
                        </Col>
                        <Col span={24}>

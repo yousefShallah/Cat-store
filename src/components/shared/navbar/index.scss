@@ -1,12 +1,7 @@
 .navbar-continer{
-    // position: fixed;
-    // width: 100%;
     .desc-navbar{
         background: #393e46;
-        // box-shadow: 1px 0px 20px #ddd;
         display: block;
-        border-right: 1px solid #eeeeee60;
-        border-bottom: 1px solid #eeeeee60;
         border-bottom-right-radius: 3px;
         height: 650px;
     }
@@ -24,16 +19,12 @@
         .logo-area{
             height: 100%;
             padding: 0px 4em;
-            // background: #f35f27;
-            // background: #fff;
             background: #393e46;
             display: flex;
             border-bottom: 1px solid #eeeeee60;
             i{
                 font-size: 60px;
                 margin: 20px auto 40px;
-                // color: rebeccapurple;
-                // color: #fff;
                 color: #eeeeee;
             }
             .sala-area{
@@ -42,7 +33,6 @@
                     position: absolute;
                     top: 65px;
                     right: 15px;
-                    // color: rgb(128, 128, 128);
                     color: #eeeeee;
                 }
                 p{
@@ -50,7 +40,6 @@
                     top: 65px;
                     right: 30px;
                     color: rgb(255, 116, 116);
-                    // color: #eeeeee;
                     font-weight: bold;
                     font-size: 22px;
                 }
@@ -87,8 +76,6 @@
         }
         .mobile-navbar{
             background: #393e46;
-            // box-shadow: 1px 0px 20px #eeeeee40;
-            // border-bottom: 1px solid #eeeeee60;
             .logo-area-mobile{
                 height: 100%;
                 padding: 1em 1.5em;

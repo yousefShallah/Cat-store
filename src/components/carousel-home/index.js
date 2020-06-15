@@ -4,7 +4,6 @@ import './index.scss';
 
 class CarouselHome extends React.Component{
     render(){
-        // const { img } = this.props.imagesCarousel;
         return(
             <Carousel autoplay>
                 <div className="carousel-img-continer">
