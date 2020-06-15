@@ -38,6 +38,17 @@
 //   }
 // }
 .App{
-    background: #FAFBFC;
-    height: 1000px;
+    // background: #FAFBFC;
+    // background: linear-gradient(to left,#222831, #204051);
+    // background: #222831;
+    background: #eee;
+    height: auto;
+}
+.nav{
+    position: fixed;
+    left: 0px;
+    z-index: 999;
+}
+.footer{
+    z-index: -1;
 }

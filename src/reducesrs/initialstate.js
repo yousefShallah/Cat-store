@@ -1,8 +1,12 @@
 export default {
-    product: {
-        id: 0,
-        name: '',
-        des: '',
-        img: ''
-    }
+    products: {
+        data: [],
+        product: {
+            id: 0,
+            name: '',
+            desc: '',
+            img: '',
+            sala: false
+        }
+    },
 }
