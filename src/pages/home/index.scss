@@ -1,0 +1,16 @@
+.home-continer{
+    padding: 2em 3em 2em 0px;
+}
+
+
+@media screen and (max-width: 1120px){
+    .home-continer{
+        padding: 2em 1em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .home-continer{
+        padding: 2em 0px;
+    }
+}
