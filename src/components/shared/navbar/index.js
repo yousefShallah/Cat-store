@@ -14,19 +14,15 @@ class NavBar extends React.Component {
             <ul className="nav-list-area">
                 <li>
                     <i className="fa fa-home"> </i>
-                    <Link to="/">Home</Link>
+                    <Link to="/cats">Cats</Link>
                 </li>
                 <li>
                     <i className="fa fa-cloud"> </i>
-                    <Link to="/products">Food</Link>
+                    <Link to="/food">Food</Link>
                 </li>
                 <li>
                     <i className="fa fa-paw"> </i>
-                    <Link to="/products">Cats</Link>
-                </li>
-                <li>
-                    <i className="fa fa-paw"> </i>
-                    <Link to="/products">Dogs</Link>
+                    <Link to="/dogs">Dogs</Link>
                 </li>
             </ul>
         )

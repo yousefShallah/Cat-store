@@ -8,7 +8,7 @@ import { Row, Col, Spin } from 'antd';
 
 import'./index.scss'
 
-class Home extends React.Component {
+class Cats extends React.Component {
 
     state={
         products: []
@@ -25,6 +25,8 @@ class Home extends React.Component {
 
     render(){
         const { products: { data } } = this.props;
+        console.log("data.id",this.props);
+        
         return(
             <div className="home-continer">
                 <CarouselHome imagesCarousel={data} />
@@ -53,4 +55,4 @@ const mapStateToProps = ({ products }) => ({
     }, dispatch)
   };
 
-  export default connect(mapStateToProps, mapDispatch)(Home);
+  export default connect(mapStateToProps, mapDispatch)(Cats);

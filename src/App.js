@@ -2,7 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Provider } from 'react-redux'
 import Home from './pages/home';
-import ProductDetials from './pages/product-details';
+import Dogs from './pages/dogs';
+import ProductItem from './pages/product-details';
+import Food from './pages/food';
 import NavBar from './components/shared/navbar';
 import Footer from './components/shared/footer';
 
@@ -24,8 +26,10 @@ class App extends React.Component {
               </Col>
               <Col xs={24} sm={24} md={18} lg={18} xl={18}>
                     <Switch>
-                      <Route exact path="/" component={Home} />
-                      <Route path="/products" component={ProductDetials} />
+                      <Route exact path="/cats" component={Home} />
+                      <Route path="/food" component={Food} />
+                      <Route path="/dogs" component={Dogs} />
+                      <Route path="/product-item" component={ProductItem} />
                     </Switch>
               </Col>
               <Col xs={24} sm={24} md={18} lg={20} xl={20}>

@@ -45,19 +45,25 @@
     }
     .sale-btn-continer{
         padding: 10px 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            // color: #252525;
+        }
         button{
-            padding: 1.2em 0px;
-            width: 100%;
+            padding: 1em 0px;
+            width: 48%;
             border-radius: 30px;
             display: flex;
             justify-content: center;
             align-items: center;
             i{
                 color: #eee;
-                font-size: 16px;
+                font-size: 14px;
                 margin: 0px 10px;
             }
-            font-size: 18px;
+            font-size: 16px;
         }
     }
 }
@@ -69,7 +75,7 @@
     .img-continer{
         img{
             width: 305px !important;
-            height: 290px !important;
+            height: 250px !important;
         }
     }
 }
