@@ -6,7 +6,21 @@ export default {
             name: '',
             desc: '',
             img: '',
-            sala: false
+            sala: false,
+            price: 0,
+            type: ''
         }
-    },
+    }
+    // foods: {
+    //     data: [],
+    //     food: {
+    //         id: 0,
+    //         name: '',
+    //         desc: '',
+    //         img: '',
+    //         sala: false,
+    //         price: 0,
+    //         type: ''
+    //     }
+    // }
 }

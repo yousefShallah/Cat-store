@@ -24,19 +24,19 @@ class Cats extends React.Component {
     }
 
     render(){
-        const { products: { data } } = this.props;
+        const { products: { data, data:{ type } } } = this.props;
         console.log("data.id",this.props);
         
         return(
             <div className="home-continer">
-                <CarouselHome imagesCarousel={data} />
+                <CarouselHome imagesCarousel={data} typeData='cat' />
 
                 { !data && <Spin /> }
                 
                 <Row type="flex">
                     { data && data.map(product => {
                         return(
-                                <ProductItem product={product} />    
+                                product.type == 'cat' && <ProductItem product={product} />    
                             )
                     }) }
                 </Row>

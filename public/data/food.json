@@ -1,0 +1,95 @@
+{
+    "food" : [
+        {
+            "id": 1,
+            "name": "Meow Mix",
+            "desc": "It's a cat food.",
+            "img": "https://tse3.mm.bing.net/th?id=OIP.1Q_WnphljbZ3v1_eP-NnIwHaMA&pid=Api&P=0&w=300&h=300",
+            "sala": false,
+            "price": 12,
+            "type": "cat_food"
+        },
+        {
+            "id": 2,
+            "name": "Friskies",
+            "desc": "It's a cat food.",
+            "img": "https://tse2.mm.bing.net/th?id=OIP.aDZdCz34ZOSlVSbIk17uKQHaHa&pid=Api&P=0&w=300&h=300",
+            "sala": false,
+            "price": 6,
+            "type": "cat_food"
+        },
+        {
+            "id": 3,
+            "name": "Whiskas",
+            "desc": "It's a cat food.",
+            "img": "https://i5.walmartimages.ca/images/Enlarge/703/295/999999-58496703295.jpg",
+            "sala": false,
+            "price": 23,
+            "type": "cat_food"
+        },
+        {
+            "id": 4,
+            "name": "Big Meow Mix",
+            "desc": "It's a big mix from Meow Mix.",
+            "img": "https://i.ebayimg.com/images/i/281944796175-0-1/s-l1000.jpg",
+            "sala": false,
+            "price": 35,
+            "type": "cat_food"
+        },
+        {
+            "id": 5,
+            "name": "Jelly",
+            "desc": "It's a cat food.",
+            "img": "https://static1.viovet.co.uk/familygallery/whiskas-adult-a8jl.jpg",
+            "sala": false,
+            "price": 10,
+            "type": "cat_food"
+        },
+        {
+            "id": 6,
+            "name": "Chopped",
+            "desc": "It's a dog food.",
+            "img": "https://img.chewy.com/is/image/catalog/114354_MAIN._AC_SL1500_V1500402966_.jpg",
+            "sala": false,
+            "price": 17,
+            "type": "dog_food"
+        },
+        {
+            "id": 7,
+            "name": "Bacon Flavor",
+            "desc": "It's a dog food.",
+            "img": "https://i5.walmartimages.com/asr/ede880c3-4f19-40e8-aadc-e001c1b358e2_1.531489f5b3616a8631c71a16e9980960.png",
+            "sala": false,
+            "price": 13,
+            "type": "dog_food"
+        },
+        {
+            "id": 8,
+            "name": "Wilder Ness",
+            "desc": "It's a dog food.",
+            "img": "https://s7d1.scene7.com/is/image/PETCO/2286102-center-1",
+            "sala": false,
+            "price": 8,
+            "type": "dog_food"
+        },
+        {
+            "id": 9,
+            "name": "Pedigree",
+            "desc": "It's a dog food.",
+            "img": "https://tse4.mm.bing.net/th?id=OIP.0AR3U9bWvHNmtaOjULQ4FwHaHa&pid=Api&P=0&w=300&h=300",
+            "sala": false,
+            "price": 16,
+            "type": "dog_food"
+        },
+        {
+            "id": 10,
+            "name": "Cesar",
+            "desc": "It's a dog food.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/81e9u7i6UYL._SL1500_.jpg",
+            "sala": false,
+            "price": 45,
+            "type": "dog_food"
+        }
+    ]
+}
+

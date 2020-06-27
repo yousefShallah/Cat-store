@@ -5,42 +5,54 @@
             "name": "small cat",
             "desc": "cat is small and cute",
             "img": "https://tse2.mm.bing.net/th?id=OIP.vK4nJVQncYg2c8hJMkmE3wHaJ4&pid=Api&P=0&w=300&h=300",
-            "sala": false
+            "sala": false,
+            "price": 20,
+            "type": "cat"
         },
         {
             "id": 2,
             "name": "small cat",
             "desc": "cat is small and cute",
             "img": "https://i.ytimg.com/vi/UwtTSqTbWzg/maxresdefault.jpg",
-            "sala": false
+            "sala": false,
+            "price": 25,
+            "type": "cat"
         },
         {
             "id": 3,
             "name": "small cat",
             "desc": "cat is small and cute",
             "img": "https://tse3.mm.bing.net/th?id=OIP.YnstdFVhldaubzlLkFnU_QHaHa&pid=Api&P=0&w=300&h=300",
-            "sala": false
+            "sala": false,
+            "price": 15,
+            "type": "cat"
         },
         {
             "id": 4,
             "name": "small cat",
             "desc": "cat is small and cute",
             "img": "https://i.ytimg.com/vi/5VBriRtl_aM/maxresdefault.jpg",
-            "sala": false
+            "sala": false,
+            "price": 30,
+            "type": "cat"
         },
         {
             "id": 5,
             "name": "dog blck",
             "desc": "dog is small and cute",
             "img": "https://tse1.mm.bing.net/th?id=OIP.VaQHItXswINeZZm7DsX3jAHaE6&pid=Api&P=0&w=283&h=188",
-            "sala": false
+            "sala": false,
+            "price": 10,
+            "type": "dog"
         },
         {
             "id": 6,
             "name": "cute dog",
             "desc": "dog is small and cute",
             "img": "https://tse4.mm.bing.net/th?id=OIP.LBwqi_4LgTak73kokkCQBQHaE7&pid=Api&P=0&w=269&h=180",
-            "sala": false
+            "sala": false,
+            "price": 14,
+            "type": "dog"
         }
     ]
 }

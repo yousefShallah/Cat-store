@@ -1,0 +1,28 @@
+.product-detials-continer{
+    padding: 1em 2em 1em !important;
+    .product{
+        display: flex;
+        .about-product{
+            font-family: "Tajawal";
+            h2{
+                font-size: 25px;
+                color: #252525;
+                font-family: "Tajawal-bold";
+            }
+            h4{
+                font-size: 18px;
+                color: #25252590;
+                span{
+                    color: #252525;
+                    font-family: "Tajawal-bold";
+                }
+            }
+        }
+        .img-product{
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+            margin: 0px 2em;
+        }
+    }
+}
