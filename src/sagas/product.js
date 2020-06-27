@@ -7,9 +7,8 @@ export function* GetProductAsync(){
     try{
         const URL = 'https://www.w3dnetwork.com/api/61010bde7a9cdc8e525e805ed269e2f6.json';
         const res = yield call(axios.get, URL);
-        console.log("response", res.data);
-        
-            yield put(GetProductSuccess(res.data))
+        // console.log("response", res.data);
+        yield put(GetProductSuccess(res.data))
     }catch(e){
         yield put(GetProductFailed({error: e.message}))
         console.log("e.massege", e);
